@@ -1,5 +1,9 @@
 # Reasoning Budget Sweep: truncation and answer-production measurements for 12 small reasoning LLMs
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22649568.svg)](https://doi.org/10.5281/zenodo.22649568)
+[![License: CC BY 4.0](https://img.shields.io/badge/data%20licence-CC--BY--4.0-blue.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![License: MIT](https://img.shields.io/badge/code%20licence-MIT-green.svg)](LICENSE)
+
 A per-response measurement dataset covering 12 open reasoning language models (0.6B to 7B, mostly
 sub-2B) evaluated on AIME 2024, AIME 2025 and MATH-500 across six generation token budgets
 (512 to 16384) and three seeds. 11,118 scored responses, 38.7 million generated tokens.
@@ -95,7 +99,20 @@ Code in `code/` is MIT. The data files are released under CC-BY-4.0.
 
 ## Citation
 
-See `CITATION.cff`. Please cite the concept DOI, which always resolves to the latest version.
+See `CITATION.cff`. Please cite the concept DOI `10.5281/zenodo.22649568`, which always
+resolves to the latest version.
+
+```bibtex
+@dataset{hossain_reasoning_budget_sweep_2026,
+  author    = {Hossain, Samir},
+  title     = {Reasoning Budget Sweep: truncation and answer-production
+               measurements for 12 small reasoning LLMs},
+  year      = {2026},
+  publisher = {Zenodo},
+  doi       = {10.5281/zenodo.22649568},
+  url       = {https://doi.org/10.5281/zenodo.22649568}
+}
+```
 
 ## Known limitations
 

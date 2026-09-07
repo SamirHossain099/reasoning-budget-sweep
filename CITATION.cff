@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it using these metadata."
+title: "Reasoning Budget Sweep: truncation and answer-production measurements for 12 small reasoning LLMs"
+abstract: >-
+  A per-response measurement dataset covering 12 open reasoning language models (0.6B to 7B) on
+  AIME 2024, AIME 2025 and MATH-500 across six generation token budgets (512 to 16384) and three
+  seeds. 11,118 scored responses. Each row records the token count, whether the response was
+  truncated at the budget, whether an answer could be extracted, and whether it was correct.
+  Intended for meta-analysis of how generation budgets interact with benchmark scores in the
+  small-model regime. Chain-of-thought text is not included.
+type: dataset
+authors:
+  - family-names: Hossain
+    given-names: Samir
+    orcid: "https://orcid.org/0009-0003-8986-0946"
+    affiliation: "Department of Electrical and Computer Engineering, Texas Tech University, Lubbock, TX, USA"
+    email: samir.hossain@ttu.edu
+version: 1.0.0
+date-released: 2026-08-07
+license: CC-BY-4.0
+keywords:
+  - large language models
+  - reasoning
+  - evaluation
+  - benchmark reliability
+  - token budget
+  - truncation
+  - AIME
+  - MATH-500
+  - chain-of-thought
